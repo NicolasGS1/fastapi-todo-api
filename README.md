@@ -18,7 +18,7 @@
 ### -sqlalchemy[asyncio]: el ORM nos permite interactuar con la base de datos usando objetos python
 ### -aiosqlite: el Driver que permite a SQLAlchemy hablar con SQLite de forma asincrona (esencial ya que estamos usando FastAPI)
 
-###----- 4. Ejecutar servidor -----
+### ----- 4. Ejecutar servidor -----
 ### Para ejecutar el servidor en tu terminal raiz del proyecto debes ejecutar este codigo:
 ### uvicorn main:app --reload
 
