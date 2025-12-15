@@ -14,7 +14,7 @@
 ### pip install fastapi uvicorn
 
 ### ----- 3. Instalar Dependencias necesarias -----
-### pip install "sqlalchemy[asyncio]" aioslite
+### pip install "sqlalchemy[asyncio]" aiosqlite
 ### -sqlalchemy[asyncio]: el ORM nos permite interactuar con la base de datos usando objetos python
 ### -aiosqlite: el Driver que permite a SQLAlchemy hablar con SQLite de forma asincrona (esencial ya que estamos usando FastAPI)
 
